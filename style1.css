@@ -1,0 +1,19 @@
+h1 {
+    color: lightsteelblue;
+}
+
+h3 {
+    font-size: 234%;
+}
+
+p {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body {
+    background-color: #FFFF00;
+}
+
+ul {
+    list-style-position: inside;
+}

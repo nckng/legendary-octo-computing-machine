@@ -1,0 +1,19 @@
+h1 {
+    font-size: 432;
+}
+
+p {
+    color: purple;
+}
+
+body {
+    background-color: yellow;
+}
+
+ul {
+    background: lightsteelblue;
+}
+
+ul li{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
