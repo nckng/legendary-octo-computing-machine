@@ -15,5 +15,31 @@ body {
 }
 
 ul {
-    list-style-position: inside;
+    display: inline-block;
+}
+
+.extreme {
+	font-size: 200%
+}
+
+div {
+	background-color: orange;
+}	
+
+li:hover, a:hover, p:hover, h1:hover, h2:hover, h3:hover {
+	color: purple;
+	font-size: 250%;
+}
+
+.head1 {
+	text-align: center;
+}
+
+
+.prose {
+	color: green;
+}
+
+.content {
+	color: red;
 }
