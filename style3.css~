@@ -1,0 +1,64 @@
+h1 {
+    text-align: center;
+    padding-top: 32px;
+    color: blue;
+}
+
+h1:hover {
+    text-decoration: line-through;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
+    display: inline-block;
+    overflow: hidden;
+    background-color: lightsteelblue;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+
+li {
+    float: left;
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+p {
+    color: orange;
+}
+
+div:hover {
+    color: green;
+    animation-name: flip;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flip{
+    from {background: purple;}
+    to { background: orange;}
+}
+
+a:hover, li:hover{
+    transform:matrix3d(-1,0,0,0,
+		       0,-1,0,0,
+		       0,0,1,0,
+		       0,0,0,1);
+    color: yellow;
+	 }
+body {
+    background: linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+    opacity: 10%;
+}
+
+div{
+    background: purple;
+}
+

@@ -3,11 +3,10 @@
 
 <html>
   <head>
-    
+     <link rel="stylesheet" type="text/css" href="style1.css">
     <title>foo title</title>
   </head>
-
-  <body>
+     <body>
     <div class="extreme"> 
       <div id="head1">
 	<h1>foo heading 1</h1>
